@@ -35,5 +35,5 @@ def json1(request):
             "email": "elon@tesla.com"
         }]
     
-    data_str =json.dumps (data)
+    data_str = json.dumps (data)
     return JsonResponse(data, safe=False)
